@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content {
+  width: 35%;
+}
+
+.explore-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
